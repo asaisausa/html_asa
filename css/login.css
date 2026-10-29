@@ -1,0 +1,80 @@
+/* ===== Dasar ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* ===== Kotak Form ===== */
+form {
+    width: 100%;
+    max-width: 340px;
+    margin: 16px;
+    padding: 28px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+form h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #1e3a8a;
+}
+
+form br {
+    display: none;
+}
+
+/* ===== Label dan Input ===== */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #475569;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: white;
+    color: #1e293b;
+    pointer-events: auto;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #1e3a8a;
+}
+
+/* ===== Tombol ===== */
+input[type="submit"] {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background: #1e3a8a;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #1e40af;
+}
