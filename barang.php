@@ -47,13 +47,12 @@
                         <td>Nama Barang</td>
                         <td>Harga</td>
                         <td>Stok</td>
+                        <td>Aksi</td>
                     </tr>
 
                     <?php
                     include "koneksi.php";
-
                     $data = mysqli_query($koneksi, "SELECT * FROM barang");
-
                     while ($tampil = mysqli_fetch_array($data)) {
                     ?>
 
@@ -62,6 +61,7 @@
                         <td><?php echo $tampil['nama_barang']; ?></td>
                         <td><?php echo $tampil['harga']; ?></td>
                         <td><?php echo $tampil['stok']; ?></td>
+                        <td><a href="barangedit.php?id=<?php echo $data['id_barang']; ?>">Edit</a></td>
                     </tr>
 
                     <?php
