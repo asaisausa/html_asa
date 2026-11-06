@@ -61,7 +61,7 @@
                         <td><?php echo $tampil['nama_barang']; ?></td>
                         <td><?php echo $tampil['harga']; ?></td>
                         <td><?php echo $tampil['stok']; ?></td>
-                        <td><a href="barangedit.php?id=<?php echo $data['id_barang']; ?>">Edit</a></td>
+                        <td><a href="barangedit.php?id=<?php echo $tampil['id_barang']; ?>">Edit</a></td>
                     </tr>
 
                     <?php

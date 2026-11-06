@@ -65,6 +65,7 @@
                         <td><?php echo $tampil['alamat']; ?></td>
                         <td><?php echo $tampil['username']; ?></td>
                         <td><?php echo $tampil['password']; ?></td>
+                        <td><a href="pegawaiedit.php?id=<?php echo $tampil['nip']; ?>">Edit</a></td>
                     </tr>
 
                     <?php
