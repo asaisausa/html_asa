@@ -28,7 +28,6 @@
 
                 <ul>
                     <li><a href="dashboard.html">Dashboard</a></li>
-                    <!-- <li><a href="buku.html">Buku</a></li> -->
                     <li><a href="barang.php">Barang</a></li>
                     <li><a href="pegawai.php">Pegawai</a></li>
                     <li><a href="transaksi.php">Transaksi</a></li>

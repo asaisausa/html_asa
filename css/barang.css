@@ -1,13 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    padding: 25px;
-}
-
-/* JUDUL */
-h2 {
-    color: #397eae;
-}
 
 /* TABEL BARANG */
 table {
@@ -15,20 +5,25 @@ table {
     border-collapse: collapse;
     background-color: #ffffff;
     margin-top: 20px;
-}
-
-/* CELL TABEL */
-table td {
-    padding: 10px 12px;
-    border: 1px solid #b5cde8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(80, 130, 180, 0.10);
 }
 
 /* HEADER TABEL */
-table tr:first-child td {
+table tr:first-child td,
+table tr:first-child th {
     background-color: #b8d4f5;
     color: #1e3a5f;
     font-weight: bold;
     text-align: center;
+}
+
+/* CELL TABEL */
+table td,
+table th {
+    padding: 12px 15px;
+    border: 1px solid #b5cde8;
 }
 
 /* BARIS TABEL */
@@ -39,4 +34,16 @@ table tr:nth-child(even) td {
 /* HOVER */
 table tr:hover td {
     background-color: #dcecff;
+}
+
+/* LINK EDIT DAN HAPUS */
+table td a {
+    color: #397eae;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table td a:hover {
+    color: #80aee0;
+    text-decoration: underline;
 }

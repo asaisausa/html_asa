@@ -1,4 +1,5 @@
 <html>
+<link rel="stylesheet" href="css/baranginput.css">
 <form action="baranginputaksi.php" method="post">
     <table>
         <tr>

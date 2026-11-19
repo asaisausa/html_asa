@@ -9,7 +9,7 @@
     <div class="judul"><h1>Edit Barang</h1></div>
     <br>
 
-    <a href="barang.php">Lihat Semua Data</a>
+    <a href="barang.php">Lihat Semua Data</a> 
 
     <br/>
 

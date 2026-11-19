@@ -27,7 +27,6 @@
 
                 <ul>
                     <li><a href="dashboard.html">Dashboard</a></li>
-                    <!-- <li><a href="buku.html">Buku</a></li> -->
                     <li><a href="barang.php">Barang</a></li>
                     <li><a href="pegawai.php">Pegawai</a></li>
                     <li><a href="transaksi.php">Transaksi</a></li>
@@ -59,9 +58,10 @@
                     <tr>
                         <td><?php echo $tampil['id_barang']; ?></td>
                         <td><?php echo $tampil['nama_barang']; ?></td>
-                        <td><?php echo $tampil['harga']; ?></td>
+                        <td>Rp <?php echo number_format($tampil['harga'], 0, ',', '.'); ?></td>
                         <td><?php echo $tampil['stok']; ?></td>
                         <td><a href="barangedit.php?id=<?php echo $tampil['id_barang']; ?>">Edit</a></td>
+                        <td><a href="baranghapus.php?id=<?php echo $tampil['id_barang']; ?>">Hapus</a></td>
                     </tr>
 
                     <?php

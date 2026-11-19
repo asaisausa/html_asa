@@ -3,7 +3,7 @@
     <table>
         <tr>
             <td>ID Transaksi</td>
-            <td><input type="text" name="nip"></td
+            <td><input type="text" name="id_transaksi"></td
         </tr>
         <tr>
             <td>ID Barang</td>

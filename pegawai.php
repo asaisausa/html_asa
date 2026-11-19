@@ -28,7 +28,6 @@
 
                 <ul>
                     <li><a href="dashboard.html">Dashboard</a></li>
-                    <!-- <li><a href="buku.html">Buku</a></li> -->
                     <li><a href="barang.php">Barang</a></li>
                     <li><a href="pegawai.php">Pegawai</a></li>
                     <li><a href="transaksi.php">Transaksi</a></li>
@@ -66,6 +65,7 @@
                         <td><?php echo $tampil['username']; ?></td>
                         <td><?php echo $tampil['password']; ?></td>
                         <td><a href="pegawaiedit.php?id=<?php echo $tampil['nip']; ?>">Edit</a></td>
+                        <td><a href="pegawaihapus.php?id=<?php echo $tampil['nip']; ?>">Hapus</a></td>
                     </tr>
 
                     <?php
