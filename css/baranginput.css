@@ -1,65 +1,54 @@
-
 body {
+    margin: 0;
+    padding: 24px;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #eaf4ff, #f5edff);
-    padding: 25px;
+    background-color: #f1f5f9;
 }
 
-/* TABEL BARANG */
 table {
-    width: 65%;
-    margin: 80px auto;
-    border-collapse: separate;
-    border-spacing: 0 12px;
+    width: 100%;
+    max-width: 520px;
+    margin: 60px auto;
+    padding: 12px;
+    border-spacing: 0;
     background-color: white;
-    padding: 25px;
-    border-radius: 18px;
-    box-shadow: 0 5px 20px rgba(100, 140, 190, 0.15);
-    border: 2px solid #d8e9ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* CELL TABEL */
-table td {
-    padding: 12px;
-    color: #42658a;
+td {
+    padding: 10px;
+    color: #334155;
     font-size: 14px;
 }
 
-/* INPUT */
+td:first-child {
+    width: 35%;
+}
+
 input[type="text"] {
     width: 100%;
+    padding: 10px;
     box-sizing: border-box;
-    padding: 12px;
-    border: 1px solid #c9def5;
-    border-radius: 10px;
-    background-color: #f7faff;
-    outline: none;
-    transition: 0.3s;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
 }
 
-/* EFEK INPUT */
 input[type="text"]:focus {
-    border-color: #75aee8;
-    background-color: white;
-    box-shadow: 0 0 8px rgba(117, 174, 232, 0.2);
+    border-color: #3b82f6;
+    outline: none;
 }
 
-/* TOMBOL SIMPAN */
 input[type="submit"] {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: none;
-    border-radius: 10px;
-    background-color: #80b5e8;
+    border-radius: 5px;
+    background-color: #3b82f6;
     color: white;
-    font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
 }
 
-/* HOVER */
 input[type="submit"]:hover {
-    background-color: #5798d5;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(87, 152, 213, 0.2);
+    background-color: #2563eb;
 }
